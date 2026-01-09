@@ -37,7 +37,7 @@ Esta es la tabla que debes crear en tu BBDD. Se llama `usuarios_lenguajes` y tie
 
 ``` SQL 
 
-CREATE TABLE usuarios_lenguajes (
+CREATE TABLE usuarios_lenguaje (
     id_usuario INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(50) NOT NULL,
     apellido VARCHAR(50) NOT NULL,
@@ -47,7 +47,7 @@ CREATE TABLE usuarios_lenguajes (
 );
 
 -- Insertar datos
-INSERT INTO usuarios_lenguajes (nombre, apellido, email, edad, lenguaje) VALUES
+INSERT INTO usuarios_lenguaje (nombre, apellido, email, edad, lenguaje) VALUES
 ('Juan', 'Gomez', 'juan.gomez@example.com', 28, 'Java'),
 ('Maria', 'Lopez', 'maria.lopez@example.com', 32, 'JavaScript'),
 ('Carlos', 'Rodriguez', 'carlos.rodriguez@example.com', 25, 'Python'),
